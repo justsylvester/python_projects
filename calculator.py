@@ -29,7 +29,3 @@ while True:
         print("Something went wrong please try again")
 
 print("Code finished")
-
-
-
-
