@@ -5,7 +5,7 @@ try:
         return random.randint(1, num)
     number = roll_dice(max_num)
     guess = ""
-    tries = 10
+    tries = int(input("how many tries do you want? : ))
     try_count = 0
     out_of_tries = False
     while guess != number and not(out_of_tries):
